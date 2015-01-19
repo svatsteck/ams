@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<hrad>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/ams.main.css">
+		<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+		<title>Immigration</title>
+	</hrad>
+	<body>
+		<BR>
+		<table class="table table-bordered table-hover" align="center" style="width: 40%; max-width: 100%;">
+		<caption>H1B</caption>
+		<tbody>	
+			<tr>
+				<td>Use Status:</td>
+				<td><input></td>
+			</tr>	
+			<tr>
+				<td>Documentation Status:</td>
+				<td><input></td>
+			</tr>	
+			<tr>
+				<td>Application Status:</td>
+				<td><input></td>
+			</tr>	
+			<tr>
+				<td>Filer:</td>
+				<td><input></td>
+			</tr>	
+			<tr>
+				<td>Receipt Number:</td>
+				<td><input></td>
+			</tr>		
+			<tr>
+				<td>Receipt Date:</td>
+				<td> <input id="receiptDate"></td>
+			</tr>
+			<tr>
+				<td>Copy of Reciept:</td>
+				<td> <input type="file"></td>
+			</tr>	
+			<tr>
+				<td>H1 Approved Date:</td>
+				<td> <input id="h1ApprovedDate"></td>
+			</tr>		
+			<tr>
+				<td>H1 Start Date:</td>
+				<td> <input id="h1StartDate"></td>
+			</tr>	
+			<tr>
+				<td>H1 Expiry Date:</td>
+				<td> <input id="h1EndDate"></td>
+			</tr>	
+			<tr>
+				<td>H1 Job Title:</td>
+				<td> <input></td>
+			</tr>		
+			<tr>
+				<td>H1 Salary:</td>
+				<td><input></td>
+			</tr>	
+			<tr>
+				<td>Consolate:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>Copy of Approval:</td>
+				<td> <input type="file"></td>
+			</tr>		
+			<tr>
+				<td>Notes:</td>
+				<td><textarea cols="30" rows="3"></textarea></td>
+			</tr>
+			<tr style="height:1px">
+				<td colspan="2"></td>
+			</tr>
+			<tr>
+				<td>H1 Revoke Letter Date:</td>
+				<td> <input id="h1RevokeDate"></td>
+			</tr>		
+			<tr>
+				<td>H1 Revoke Confirm Date:</td>
+				<td> <input id="h1RevokeConfirmDate"></td>
+			</tr>
+			<tr>
+				<td>Copy of Revoke Confirmation:</td>
+				<td> <input type="file"></td>
+			</tr>
+			<tr>
+				<td>Revoke Notes:</td>
+				<td><textarea cols="30" rows="3"></textarea></td>
+			</tr>
+			<tr style="height:1px">
+				<td colspan="2"></td>
+			</tr>
+			<tr align="right">
+				<td colspan="2">
+					<a class="btn btn-success" href="experience.html" role="button"><-Proffesional Expereince</a>
+					<input type="button" class="btn btn-success" value="Save">
+					<a class="btn btn-success" href="lca.html" role="button">LCA-></a>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jquery-ui.js"></script>
+		<script>
+		  $(function() {
+		    $("#receiptDate").datepicker();
+		    $("#h1ApprovedDate").datepicker();
+		    $("#h1StartDate").datepicker();
+		    $("#h1EndDate").datepicker();
+		    $("#h1RevokeDate").datepicker();
+		    $("#h1RevokeConfirmDate").datepicker();
+		  });
+		</script>
+	</body>
+</html>

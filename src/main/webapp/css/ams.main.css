@@ -1,0 +1,10 @@
+
+.required:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+input[type="text"],select {
+  width: 80%;
+  padding: 1%;
+}
