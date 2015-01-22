@@ -1,4 +1,62 @@
-
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #10222B;
+  height: 55px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
+  z-index: 1000;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 55px;
+}
+header nav {
+  float: right; 
+  position: relative;
+  line-height: 55px;
+}
+header nav > a {
+  margin-left: 5px;
+}
+header nav .signin,
+header nav .signin:focus {
+  color: #fff;
+  border-color: #fff;
+  outline: none;
+}
+header nav .signin:hover {
+  color: #333;
+  background-color: #fff;
+}
+#banner {
+  background-color: #eee;
+  height: 500px;
+  padding-top: 55px;
+  background: url(../images/iStock1.jpg) no-repeat 0 50%;
+  background-size: cover;
+}
+.section-content {
+	min-height: 400px;
+	padding-top: 40px;
+}
+.section-content .sub-title{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.section-content .sub-sub-title {
+	font-weight: bold;
+	color: #666;
+	padding-bottom: 8px;
+}
+.section-content .service-title .sub-title {
+	line-height: 1.2;
+	padding-top: 5px;
+}
+.section-content .sub-content{
+	padding: 10px 0 50px 0;
+}
 .required:after {
     color: #e32;
     content: ' *';
@@ -8,24 +66,26 @@ input[type="text"],select {
   width: 80%;
   padding: 1%;
 }
-
-
 /* tab color */
 .nav-tabs>li>a {
   background-color: #333333; 
   border-color: #777777;
   color:#fff;
 }
-
 /* active tab color */
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
   color: #fff;
   background-color: #666;
   border: 1px solid #888888;
 }
-
 /* hover tab color */
 .nav-tabs>li>a:hover {
   border-color: #000000;
   background-color: #111111;
+}
+footer {
+	height: 50px;
+	line-height: 50px;
+	background-color: #10222B;
+	color: #fff;
 }
