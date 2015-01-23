@@ -1,3 +1,20 @@
+/* Bootstrap overrides */
+.table-striped>tbody>tr:nth-child(odd) {
+	background-color: #F3FCED;
+}
+.table>thead>tr {
+	background-color: #9EC871;
+	color: #FFF;
+}
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td {
+	border: 1px solid #DDEFD1;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -30,6 +47,37 @@ header nav .signin:hover {
   color: #333;
   background-color: #fff;
 }
+header nav .dropdown-menu {
+  right: 0;
+  left: auto;
+  margin: 0;
+}
+header nav .dropdown-menu:after {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #eee;
+  bottom: 62px;
+  right: 10px;
+}
+.dropdown-menu>li>a {
+  padding: 3px 10px;
+}
+.dropdown-menu>li>a span {
+  padding-right: 5px;
+}
+#profile, #profile:focus {
+  padding: 5px 8px;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+}
+#profile:hover {
+  background-color: #fff;
+  color: #333;
+}
 #banner {
   background-color: #eee;
   height: 500px;
@@ -57,14 +105,17 @@ header nav .signin:hover {
 .section-content .sub-content{
 	padding: 10px 0 50px 0;
 }
+#main-content {
+	min-height: 600px;
+	padding-top: 75px;
+}
+.table-container {
+	padding-bottom: 20px;
+}
 .required:after {
     color: #e32;
     content: ' *';
     display:inline;
-}
-input[type="text"],select {
-  width: 80%;
-  padding: 1%;
 }
 /* tab color */
 .nav-tabs>li>a {

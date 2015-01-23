@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link href="../external/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all" />
+	<link href="../css/ams.main.css" rel="stylesheet" media="all" />
+</head>
+<body>
+	<header>
+	    <div class="container clearfix">
+	        <nav>
+	            <a id="profile" class="btn" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+	            <ul class="dropdown-menu" role="menu" aria-labelledby="profile">
+                	<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                	<li role="presentation"><a role="menuitem" tabindex="-1" href="index.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
+	        </nav>
+	        <a id="logo">
+	            LOGO
+	        </a>
+	    </div>
+	</header>
+	<div id="main-content" class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<td><strong>Total Associates count</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>Clients</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>Vendors</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>Associates on project</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>Associates on bench</strong></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><strong>Associates on vacation</strong></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="table-container">
+			<h3>Associated on Bench</h3>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Job End Date</th>
+						<th>Recruiter</th>
+						<th>Primary Skills</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="#">Consultant1</a></td>
+						<td>12/20/2014</td>
+						<td>Recruiter1</td>
+						<td>Java</td>
+					</tr>
+					<tr>
+						<td><a href="#">Consultant2</a></td>
+						<td>1/20/2014</td>
+						<td>Recruiter2</td>
+						<td>Java</td>
+					</tr>
+					<tr>
+						<td><a href="#">Consultant3</a></td>
+						<td>5/2/2014</td>
+						<td>Recruiter3</td>
+						<td>.NET</td>
+					</tr>
+					<tr>
+						<td><a href="#">Consultant4</a></td>
+						<td>12/20/2014</td>
+						<td>Recruiter4</td>
+						<td>SQL Server DBA</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="table-container">
+					<h3>Associated Count by Client</h3>
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Client</th>
+								<th>Count</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Client1</td>
+								<td>12</td>
+							</tr>
+							<tr>
+								<td>Client2</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Client3</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Client4</td>
+								<td>7</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="table-container">
+					<h3>Filings</h3>
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Period Filter</th>
+								<th>Week/Month/Year</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>H1B</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>PERM</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>I-140</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>EAD</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../external/jquery/jquery-2.1.3.min.js"></script>
+	<script src="../external/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/ams-main.js"></script>
+</body>
+</html>
