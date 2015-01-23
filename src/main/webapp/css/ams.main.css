@@ -80,10 +80,7 @@ header nav .dropdown-menu:after {
 }
 #banner {
   background-color: #eee;
-  height: 500px;
-  padding-top: 55px;
-  background: url(../images/iStock1.jpg) no-repeat 0 50%;
-  background-size: cover;
+  height: 121px;
 }
 .section-content {
 	min-height: 400px;
