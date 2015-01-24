@@ -14,51 +14,18 @@
 .table-bordered>tfoot>tr>td {
 	border: 1px solid #DDEFD1;
 }
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: #10222B;
-  height: 55px;
-  box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
-  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.1);
-  z-index: 1000;
-}
-header a {
-  color: #fff;
-  text-decoration: none;
-  line-height: 55px;
-}
-header nav {
-  float: right; 
-  position: relative;
-  line-height: 55px;
-}
-header nav > a {
-  margin-left: 5px;
-}
-header nav .signin,
-header nav .signin:focus {
-  color: #fff;
-  border-color: #fff;
-  outline: none;
-}
-header nav .signin:hover {
-  color: #333;
-  background-color: #fff;
-}
-header nav .dropdown-menu {
-  right: 0;
+.dropdown-menu {
+  right: 30px;
   left: auto;
   margin: 0;
 }
-header nav .dropdown-menu:after {
+.dropdown-menu:after {
   content: ' ';
   height: 0;
   position: absolute;
   width: 0;
   border: 8px solid transparent;
-  border-bottom-color: #eee;
+  border-bottom-color: #fff;
   bottom: 62px;
   right: 10px;
 }
@@ -68,14 +35,20 @@ header nav .dropdown-menu:after {
 .dropdown-menu>li>a span {
   padding-right: 5px;
 }
-#profile, #profile:focus {
-  padding: 5px 8px;
-  border: 1px solid #000;
-  outline: none;
-  color: #000;
+#profile {
+  float: right;
+  margin-left: 15px;
+  padding: 9px 0;
 }
-#profile:hover {
-  background-color: #000;
+#profile a, #profile a:focus {
+  padding: 5px 8px;
+  border: 1px solid #CCC;
+  outline: none;
+  color: #666;
+  background-color: #FFF;
+}
+#profile a:hover {
+  background-color: #E6E6E6;
   color: #333;
 }
 #banner {
@@ -104,7 +77,6 @@ header nav .dropdown-menu:after {
 }
 #main-content {
 	min-height: 600px;
-	padding-top: 75px;
 }
 .table-container {
 	padding-bottom: 20px;

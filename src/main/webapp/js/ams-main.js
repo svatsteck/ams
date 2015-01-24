@@ -11,8 +11,8 @@ $( document ).ready(function() {
     });
     
     $("#search-btn").click(function(event) {
-  	  event.preventDefault();
-  	       window.location = "search-results.html";
-  	    });
+      event.preventDefault();
+      window.location = "search-results.html";
+    });
 });
 
