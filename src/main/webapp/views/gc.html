@@ -54,9 +54,33 @@
 				<td><input id="permStartDate"></td>
 			</tr>
 			<tr>
+				<td>Perm Approve Date:</td>
+				<td><input id="permApproveDate"></td>
+			</tr>
+			<tr>
 				<td>Perm Exp Date:</td>
 				<td><input id="permEndDate"></td>
 			</tr>	
+			<tr>
+				<td>I-140 Status:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>I-140 Filing Date:</td>
+				<td><input id="i140FilingDate"></td>
+			</tr>
+			<tr>
+				<td>I-485 Status:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>I-485 Filing Date:</td>
+				<td><input id="i485FilingDate"></td>
+			</tr>
+			<tr>
+				<td>Perm Category:</td>
+				<td><input></td>
+			</tr>
 			<tr style="height:1px">
 				<td colspan="2"></td>
 			</tr>
@@ -101,6 +125,9 @@
 	  $(function() {
 	    $("#permStartDate").datepicker();
 		$("#permEndDate").datepicker();
+		$("#permApproveDate").datepicker();
+		$("#i140FilingDate").datepicker();
+		$("#i485FilingDate").datepicker();
 	  });
 	</script>
 	</body>
