@@ -7,6 +7,7 @@
     	<link href="../external/bootstrap/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/ams.main.css">
+		<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
 		<title>LCA</title>
 	</head>
 	<body>
@@ -38,6 +39,30 @@
 		<tbody>	
 			<tr>
 				<th><label class="required">:</label></th>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>LCA number:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>Wage rate:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>Start Date:</td>
+				<td><input id="lcaStartDate"></td>
+			</tr>
+			<tr>
+				<td>End Date:</td>
+				<td><input id="lcaEndDate"></td>
+			</tr>	
+			<tr>
+				<td>LCA Title:</td>
+				<td><input></td>
+			</tr>
+			<tr>
+				<td>LCA Level:</td>
 				<td><input></td>
 			</tr>
 			<tr style="height:1px">
@@ -79,5 +104,13 @@
 			</div>
 		</div>
 	</footer>
+	<script src="../js/jquery-1.11.2.min.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<script>
+	  $(function() {
+	    $("#lcaStartDate").datepicker();
+		$("#lcaEndDate").datepicker();
+	  });
+	</script>
 	</body>
 </html>
