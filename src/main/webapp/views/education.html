@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/ams.main.css">
 		<link href="../external/bootstrap/css/social-buttons.css" rel="stylesheet" media="all" />
     	<link href="../external/bootstrap/css/font-awesome.css" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
 		<title>Educational Details</title>
 	</head>
 	<body>
@@ -46,7 +47,7 @@
 			</tr>
 			<tr>
 				<td>Date Awarded:</td>
-				<td><input type="text"></td>
+				<td><input id="dateAwarded"></td>
 			</tr>
 			<tr>
 				<td>University/College</td>
@@ -81,7 +82,7 @@
 			<div align="center">
 			<a class="btn btn-social-icon btn-adn"><i class="fa fa-adn">adn</i></a>
 			<a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
-			<a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+			<a class="btn btn-social-icon btn-dropsbox"><i class="fa fa-dropbox"></i></a>
 			<a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
 			<a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
 			<a class="btn btn-social-icon btn-foursquare"><i class="fa fa-foursquare"></i></a>
@@ -102,5 +103,12 @@
 			</div>
 		</div>
 	</footer>
+	<script src="../js/jquery-1.11.2.min.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<script>
+		  $(function() {
+		    $("#dateAwarded").datepicker();
+		  });
+		</script>
 	</body>
 </html>
