@@ -8,10 +8,5 @@ $( document ).ready(function() {
     	} else {
     		window.location = "sr-management.html";
     	}
-    });
-
-    $("#search-btn").click(function(event) {
-        event.preventDefault();
-        window.location = "search-results.html";
-    });
+    })
 });
