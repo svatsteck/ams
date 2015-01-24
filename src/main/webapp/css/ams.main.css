@@ -14,12 +14,12 @@
 .table-bordered>tfoot>tr>td {
 	border: 1px solid #DDEFD1;
 }
-.dropdown-menu {
+.dropdown-menu.profile-dropdown {
   right: 30px;
   left: auto;
   margin: 0;
 }
-.dropdown-menu:after {
+.dropdown-menu.profile-dropdown:after {
   content: ' ';
   height: 0;
   position: absolute;
