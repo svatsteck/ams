@@ -110,7 +110,7 @@ footer {
 	color: #fff;	
 }
 
-.button, a:hover {
+.button, .button:hover {
 	text-decoration: none;
 	background-image: none;
 	border: 1px solid transparent;
